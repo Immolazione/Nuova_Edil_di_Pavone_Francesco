@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+
+.logo{
+  height: 100px;
+}
+
+.nav-tab{
+  border: 5px solid blue;
+}
+
+.nav-tabs {
+  display: flex;
+  height: calc(100vh - 115px);
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  font-size: 30px;
+
+}
